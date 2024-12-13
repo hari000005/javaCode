@@ -1,9 +1,9 @@
 import java.util.*;
 class  Mergesort
 {
-	public static void main(String[] args) 
+	public static void main(String[] args)  
 	{
-		int [] a={4,3,5,0,1,2};
+		int [] a={4,3,5,0,1,3};
 		System.out.println(Arrays.toString(a));
 		divide(a,0,a.length-1);
 		System.out.println(Arrays.toString(a));
@@ -34,6 +34,8 @@ class  Mergesort
 			 }
 			 else
 				  k[x++]=a[right++];
+
+				  
 		 }
 		 while (left<=mid)
 		 { 
